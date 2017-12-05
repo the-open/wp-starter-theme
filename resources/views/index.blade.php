@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+<!-- index.blade.php -->
 @section('content')
   @include('partials.page-header')
 

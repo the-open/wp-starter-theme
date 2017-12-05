@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+<!-- search.blade.php -->
 @section('content')
   @include('partials.page-header')
 

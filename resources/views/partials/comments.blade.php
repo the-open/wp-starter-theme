@@ -4,6 +4,7 @@ if (post_password_required()) {
 }
 @endphp
 
+<!-- comments.blade.php -->
 <section id="comments" class="comments">
   @if (have_comments())
     <h2>
