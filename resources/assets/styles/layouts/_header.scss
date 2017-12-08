@@ -2,6 +2,21 @@
   @extend .nav-item;
 }
 
-.banner .nav a {
-  @extend .nav-link;
+.banner .nav {
+  a {
+    @extend .nav-link;
+  }
+}
+
+.jumbotron {
+  background: url(http://www.fullsailblog.com/content/uploads/2015/10/SocialMediaActivism.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 40vh;
+
+  @extend .text-white;
+
+  h1,
+  .lead {
+    text-shadow: 0 5px 5px black;
+  }
 }
